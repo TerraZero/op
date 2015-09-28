@@ -1,18 +1,20 @@
 tab -> live
 wenn COM32
 third party software
+
 sudo apt-get update
 sudo apt-get upgrade
-apache2
-php5
-php5-mysqlnd
-git
-php5-curl
-curl
-php5-gd
-php5-xdebug
-mysql-server
-dnsmasq
+sudo apt-get install ...
+  apache2
+  php5
+  php5-mysqlnd
+  git
+  php5-curl
+  curl
+  php5-gd
+  php5-xdebug
+  mysql-server
+  dnsmasq
 /etc/dnsmasq.conf
 address=/.dev/127.0.0.1
 sudo service dnsmasq restart
@@ -37,3 +39,6 @@ for mail support
   sudo apt-get update
   sudo apt-get install -y build-essential software-properties-common
   sudo apt-get install -y libsqlite3-dev ruby1.9.1-dev
+
+sudo apt-get install ubuntu-gnome-desktop
+  lightgdm

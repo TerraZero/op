@@ -46,3 +46,16 @@ logout
 start mit gnome
 
 gnome extensions
+
+ln -s /var/www/html ~/projects
+
+sudo apt-get update
+sudo apt-get install nodejs
+sudo apt-get install npm
+
+adminer html
+
+install:
+  skype
+  chrome ->  ? sudo apt-get install google-chrome-stable
+  sublime

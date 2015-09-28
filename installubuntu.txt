@@ -42,3 +42,7 @@ for mail support
 
 sudo apt-get install ubuntu-gnome-desktop
   lightgdm
+logout
+start mit gnome
+
+gnome extensions

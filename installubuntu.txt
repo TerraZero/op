@@ -28,6 +28,10 @@ sudo service apache2 restart
 apachectl configtest
   zum test
 
+/etc/apache2/apache2.conf
+/var/www
+AllowOverride All
+
 /var/www/html
 sudo chown <user>:www-data .
 sudo chmod g+s .

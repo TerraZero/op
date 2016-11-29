@@ -1,0 +1,38 @@
+# GENERAL alias
+alias ea="gedit ~/.zshrc && source ~/.zshrc" #GENERAL
+alias c="clear" #GENERAL
+alias fresh="source ~/.zshrc" #GENERAL
+
+# CONFIG alias
+alias myip="ifconfig | grep 'inet addr:'" #INFO
+
+# PATH alias
+alias dl="cd ~/Downloads" #PATH
+
+# GIT alias
+alias gadd="git add -A && git commit -m" #GIT
+alias gs="git status" #GIT
+alias gp="git pull" #GIT
+alias gb="git checkout" #GIT
+alias p="git push" #GIT
+alias gn="git checkout -b" #GIT
+alias gr="git branch -D" #GIT
+alias gbl="git show-branch --list" #GIT
+alias gblo="git show-branch --list --remotes" #GIT
+
+# DRUPAL alias
+alias pro="cd ~/projects && cd" #DRUPAL
+alias th="cd sites/all/themes && cd" #DRUPAL
+
+# NODE alias
+alias nin="npm install --save" #NODE
+alias nun="npm uninstall --save" #NODE
+alias nli="npm list" #NODE
+alias nrebuild="rm -rf node_modules && npm install"
+
+alias -s js="node" #SUFFIX
+
+alias tophp5="sudo a2dismod php7.0; sudo a2enmod php5; sudo service apache2 restart"
+alias tophp7="sudo a2dismod php5; sudo a2enmod php7.0; sudo service apache2 restart"
+alias enx="sudo phpenmod xdebug; sudo php5enmod xdebug;"
+alias disx="sudo phpdismod xdebug; sudo php5dismod xdebug;"
